@@ -2,7 +2,7 @@
 if [ "$#" -eq 0 ]; then
 	echo "No arguments supplied"
 else
-	for agr in "$@"
+	for arg in "$@"
 	do
 		mkdir -p "ex$arg"
 	done
