@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    margin: 50px auto;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+header {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social svg {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+}
+
+button {
+    padding: 10px 25px;
+    cursor: pointer;
+}
