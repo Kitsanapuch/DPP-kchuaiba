@@ -1,4 +1,3 @@
-
 const balloon = document.getElementById("balloon");
 
 let size = 200;
